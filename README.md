@@ -6,7 +6,6 @@ A basic calculator application implemented in .NET.
 
 - Addition, subtraction, multiplication, and division operations
 - User-friendly interface
-- [Add any additional features here]
 
 ## Getting Started
 
