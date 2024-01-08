@@ -63,10 +63,6 @@ MultiCalc is a collection of versatile calculators covering various categories.
 
 ## Getting Started
 
-### Prerequisites
-
-- [.NET Core SDK](https://dotnet.microsoft.com/download) installed
-
 ### Installation
 
 1. Clone the repository:
@@ -77,11 +73,6 @@ MultiCalc is a collection of versatile calculators covering various categories.
 2. Change into the project directory:
    ```bash
    cd calculator.net
-   ```
-
-3. Build and run the application:
-   ```bash
-   dotnet run
    ```
 
 # Calculator.NET
