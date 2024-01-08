@@ -1,6 +1,60 @@
 # Calculator.NET
 
-A basic calculator application implemented in .NET.
+# MultiCalc
+
+MultiCalc is a collection of versatile calculators covering various categories.
+
+## Financial Calculators
+
+- Mortgage Calculator
+- Loan Calculator
+- Auto Loan Calculator
+- Interest Calculator
+- Payment Calculator
+- Retirement Calculator
+- Amortization Calculator
+- Investment Calculator
+- Inflation Calculator
+- Finance Calculator
+- Income Tax Calculator
+- Compound Interest Calculator
+- Salary Calculator
+- Interest Rate Calculator
+- Sales Tax Calculator
+
+## Fitness & Health Calculators
+
+- BMI Calculator
+- Calorie Calculator
+- Body Fat Calculator
+- BMR Calculator
+- Ideal Weight Calculator
+- Pace Calculator
+- Pregnancy Calculator
+- Pregnancy Conception Calculator
+- Due Date Calculator
+
+## Math Calculators
+
+- Scientific Calculator
+- Fraction Calculator
+- Percentage Calculator
+- Random Number Generator
+- Triangle Calculator
+- Standard Deviation Calculator
+
+## Other Calculators
+
+- Age Calculator
+- Date Calculator
+- Time Calculator
+- Hours Calculator
+- GPA Calculator
+- Grade Calculator
+- Concrete Calculator
+- Subnet Calculator
+- Password Generator
+- Conversion Calculator
 
 ## Features
 
