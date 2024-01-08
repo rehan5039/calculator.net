@@ -150,7 +150,7 @@ Calculator.NET is dedicated to providing accurate and fast online calculators fo
 
 While most calculators are designed for global usage, some, like the Income Tax Calculator, are specific to certain countries. For example, the Income Tax Calculator is intended for United States residents.
 
-[About Us](https://github.com/rehan5039/calculator.net.git) | [Sitemap](#) | [Terms of Use](#) | [Privacy Policy](#)
+[About Us](#) | [Sitemap](#) | [Terms of Use](#) | [Privacy Policy](#)
 
 © 2023 - 2024 Calculator.NET
 ```
