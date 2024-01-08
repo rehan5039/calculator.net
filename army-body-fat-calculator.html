@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.calculator.net/army-body-fat-calculator.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2024 06:57:51 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<title>Army Body Fat Calculator</title>
+	<meta name="description" content="This calculator computes body fat percentage based on methods in the U.S. Army's Standards of Medical Fitness and its army recruitment compliance category." />
+	<link rel="stylesheet" href="style.css" /><script src="http://d26tpo4cm8sb6k.cloudfront.net/js/common.js" async></script><meta name="viewport" content="width=device-width, initial-scale=1.0">	<link rel="apple-touch-icon" sizes="180x180" href="http://d26tpo4cm8sb6k.cloudfront.net/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="http://d26tpo4cm8sb6k.cloudfront.net/icon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="http://d26tpo4cm8sb6k.cloudfront.net/icon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MG6X25PP');</script>
+<!-- End Google Tag Manager --></head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MG6X25PP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="headerout">
+	<div id="header">
+		<div id="logo"><a href="index.html"><img src="http://d26tpo4cm8sb6k.cloudfront.net/img/svg/calculator-white.svg" width="208" height="22" alt="Calculator.net"></a></div>
+			</div>
+</div>
+<div id="clear"></div><div id="contentout"><div id="content"><div id="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="index.html" itemprop="item"><span itemprop="name">home</span></a><meta itemprop="position" content="1" /></span> / <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="fitness-and-health-calculator.html" itemprop="item"><span itemprop="name">fitness &amp; health</span></a><meta itemprop="position" content="2" /></span> / <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="army-body-fat-calculator.html" itemprop="item"><span itemprop="name">army body fat calculator</span></a><meta itemprop="position" content="3" /></span></div>		<h1>Army Body Fat Calculator</h1>
+
+<p>The <i>Army Body Fat Calculator</i> is based on the U.S. Army <a href="pdf/r40_501.pdf">Standards of Medical Fitness</a>, published on June 27, 2019. This calculator will determine body fat percentage and whether the calculated body fat percentage is in compliance with the army recruitment standard, the standard after entry into the army, or the most stringent standard of being in compliance with the Department of Defense goal. To ensure accuracy, take the average of at least three measurements. If possible, measure to the nearest 1/2 or 1/4 inch.</p>
+
+<div id="insmdc"><img src="http://d26tpo4cm8sb6k.cloudfront.net/img/svg/insm.svg" width="630" height="35" alt="Modify the values and click the calculate button to use"></div><form name="calform">
+<div class="panel">
+<table id="calinputtable">
+<input type="hidden" name="ctype" id="ctype" value="standard">
+<tr>
+	<td width="60">Gender</td>
+	<td>
+		<label for="csex1" class="cbcontainer"><input type="radio" name="csex" id="csex1" value="m" onclick="showMF('male',1);" checked /><span class="rbmark"></span>male</label> &nbsp;
+		<label for="csex2" class="cbcontainer"><input type="radio" name="csex" id="csex2" value="f" onclick="showMF('female',1)"  /><span class="rbmark"></span>female</label></td>
+</tr>
+<tr>
+	<td width="60">Age</td>
+	<td><input type="text" name="cage" id="cage" value="21" class="infull" onKeyUp="iptfieldCheck(this, 'r', 'pn');"></td>
+</tr>
+</table>
+<table id="standardheightweight">
+<tr>
+	<td width="60">Height</td>
+	<td>
+		<table border="0" cellpadding="0" cellspacing="0"><tr><td>
+			<input type="text" name="cheightfeet" id="cheightfeet" value="6" class="inhalf inuifoot" onKeyUp="iptfieldCheck(this, '', 'pzn');"><span class="inuifootspan">feet</span>
+		</td><td>&nbsp;</td><td>
+			<input type="text" name="cheightinch" id="cheightinch" value="0" class="inhalf inuiinch" onKeyUp="iptfieldCheck(this, '', 'pzn');"><span class="inuiinchspan">inches</span>
+		</td></tr></table>
+	</td>
+</tr>
+<tr>
+	<td width="60">Neck</td>
+	<td>
+		<table border="0" cellpadding="0" cellspacing="0"><tr><td><table border="0" cellpadding="0" cellspacing="0"><tr><td>
+			<input type="text" name="cneckfeet" id="cneckfeet" value="1" class="inhalf inuifoot" onKeyUp="iptfieldCheck(this, '', 'pzn');"><span class="inuifootspan">feet</span>
+		</td><td>&nbsp;</td><td>
+			<input type="text" name="cneckinch" id="cneckinch" value="4.5" class="inhalf inuiinch" onKeyUp="iptfieldCheck(this, '', 'pzn');"><span class="inuiinchspan">inches</span>
+		</td></tr></table></td><td style="padding-left:12px;">just below the level of larynx (Adam's apple)</td></tr></table>
+	</td>
+</tr>
+</table>
+<table id="standardmale">
+<tr>
+	<td width="60">Waist</td>
+	<td>
+		<table border="0" cellpadding="0" cellspacing="0"><tr><td><table border="0" cellpadding="0" cellspacing="0"><tr><td>
+			<input type="text" name="cwaistfeet" id="cwaistfeet" value="3" class="inhalf inuifoot" onKeyUp="iptfieldCheck(this, '', 'pzn');"><span class="inuifootspan">feet</span>
+		</td><td>&nbsp;</td><td>
+			<input type="text" name="cwaistinch" id="cwaistinch" value="0" class="inhalf inuiinch" onKeyUp="iptfieldCheck(this, '', 'pzn');"><span class="inuiinchspan">inches</span>
+		</td></tr></table></td><td style="padding-left:12px;">at the level of the navel (belly button)</td></tr></table>
+	</td>
+</tr>
+</table>
+<table id="standardfemale">
+<tr>
+	<td width="60">Waist</td>
+	<td>
+		<table border="0" cellpadding="0" cellspacing="0"><tr><td><table border="0" cellpadding="0" cellspacing="0"><tr><td>
+			<input type="text" name="cwaistfeetf" id="cwaistfeetf" value="3" class="inhalf inuifoot" onKeyUp="iptfieldCheck(this, '', 'pzn');"><span class="inuifootspan">feet</span>
+		</td><td>&nbsp;</td><td>
+			<input type="text" name="cwaistinchf" id="cwaistinchf" value="0" class="inhalf inuiinch" onKeyUp="iptfieldCheck(this, '', 'pzn');"><span class="inuiinchspan">inches</span>
+		</td></tr></table></td><td style="padding-left:12px;">at the point of min abdominal circumference</td></tr></table>
+	</td>
+</tr>
+<tr>
+	<td width="60">Hip</td>
+	<td>
+		<table border="0" cellpadding="0" cellspacing="0"><tr><td><table border="0" cellpadding="0" cellspacing="0"><tr><td>
+			<input type="text" name="chipfeet" id="chipfeet" value="2" class="inhalf inuifoot" onKeyUp="iptfieldCheck(this, '', 'pzn');"><span class="inuifootspan">feet</span>
+		</td><td>&nbsp;</td><td>
+			<input type="text" name="chipinch" id="chipinch" value="10.5" class="inhalf inuiinch" onKeyUp="iptfieldCheck(this, '', 'pzn');"><span class="inuiinchspan">inches</span>
+		</td></tr></table></td><td style="padding-left:12px;">where the buttocks protrude backward the most</td></tr></table>
+	</td>
+</tr>
+</table>
+<table width="267">
+<tr>
+	<td colspan="2" align="right" style="padding-top: 8px;">
+		<input type="submit" name="x" value="Calculate">
+		<input type="button" value="Clear" onClick="clearForm(document.calform);">
+	</td>
+</tr>
+</table>
+</div>
+</form>
+<script>
+function showMF(inval, submitit){
+	if (inval == "male"){
+		document.getElementById("standardmale").style.display = 'block';
+		document.getElementById("standardfemale").style.display = 'none';
+	}else{
+		document.getElementById("standardmale").style.display = 'none';
+		document.getElementById("standardfemale").style.display = 'block';
+	}
+}
+if (document.getElementById("csex1").checked){showMF('male',0);}else{showMF('female',0);}
+</script>
+
+<br><p><fieldset><legend>Related</legend><a href="bmi-calculator.html">BMI Calculator</a> | <a href="calorie-calculator.html">Calorie Calculator</a> | <a href="ideal-weight-calculator.html">Ideal Weight Calculator</a></fieldset></p>
+<h2>Reference</h2>
+<p>Appropriate body fat is one of the medical fitness requirements to join and stay in the U.S. Army. The Department of Defense releases its body fat requirements every few years as part of the Standards of Medical Fitness. The latest release was published on June 27, 2019, and the requirements are summarized in the following two tables:</p>
+<p><b>Maximum Allowable Body Fat Percentage to Join</b>*</p>
+<table class="cinfoT" align="center">
+	<tr><td class="cinfoHd">Age</td><td class="cinfoHdL">Male</td><td class="cinfoHdL">Female</td></tr>
+	<tr><td>17-20</td><td class="cinfoBodL">24%</td><td class="cinfoBodL">30%</td></tr>
+	<tr><td>21-27</td><td class="cinfoBodL">26%</td><td class="cinfoBodL">32%</td></tr>
+	<tr><td>28-39</td><td class="cinfoBodL">28%</td><td class="cinfoBodL">34%</td></tr>
+	<tr><td>40 and over</td><td class="cinfoBodL">30%</td><td class="cinfoBodL">36%</td></tr>
+</table>
+
+<p><b>Maximum Body Fat Percentage Standard after Entry</b>*</p>
+<table class="cinfoT" align="center">
+	<tr><td class="cinfoHd">Age</td><td class="cinfoHdL">Male</td><td class="cinfoHdL">Female</td></tr>
+	<tr><td>17-20</td><td class="cinfoBodL">20%</td><td class="cinfoBodL">30%</td></tr>
+	<tr><td>21-27</td><td class="cinfoBodL">22%</td><td class="cinfoBodL">32%</td></tr>
+	<tr><td>28-39</td><td class="cinfoBodL">24%</td><td class="cinfoBodL">34%</td></tr>
+	<tr><td>40 and over</td><td class="cinfoBodL">26%</td><td class="cinfoBodL">36%</td></tr>
+</table>
+<p><b>Department of Defense goal</b>: 18% body fat for males, and 26% body fat for females.*</p>
+
+<p>After meeting the initial qualifications, a person's body fat will be measured periodically. Those who fail to meet the requirements may be put on a mandatory weight loss program and may be subject to administrative sanctions.</p>
+<p>According to the Standards of Medical Fitness, body fat is calculated based on the physical size of a person, which includes the height, neck, and waist size for men, and the height, neck, waist, and hip size for women. When taking measurements, the subject should be standing upright with arms at rest on both sides. The subject's neck should be measured at a point just below the larynx, and the waist should be measured either at the point of the minimum circumference or close to the belly button. The hip, in contrast, should be measured at its widest point.</p>
+
+<p>* from <a href="pdf/r40_501.pdf">Army Regulation 40-501&mdash;Standards of Medical Fitness</a>, dated June 27, 2019.</p>
+
+</div>
+	<div id="right">
+		<div style="padding-top:10px;  min-height:280px; text-align:center;">
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+	googletag.defineSlot('/1057446/Calculator-Top-Right-Desktop', [[300, 250], [336, 280]], 'div-gpt-ad-1589567013929-0').addService(googletag.pubads());
+	googletag.pubads().enableSingleRequest();
+	googletag.enableServices();
+  });
+</script>
+<!-- /1057446/Calculator-Top-Right-Desktop -->
+<div id='div-gpt-ad-1589567013929-0'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1589567013929-0'); });
+  </script>
+</div>
+</div>
+<table align="center" id="searchbox"><form name="calcSearchForm" onsubmit="calcSearch(); return false;" autocomplete="off"><tr><td><input type="text" name="calcSearchTerm" id="calcSearchTerm" class="inlongest" onkeyup="return calcSearch();"></td><td><span id="bluebtn" onClick="return calcSearch();">Search</span></td></tr><tr><td colspan="2"><div id="calcSearchOut"></div></td></tr></form></table><div id="othercalc"><div id="octitle"><a href="fitness-and-health-calculator.html">Fitness and Health Calculators</a></div><div id="occontent"><a href="bmi-calculator.html">BMI</a><a href="calorie-calculator.html">Calorie</a><a href="body-fat-calculator.html">Body Fat</a><a href="bmr-calculator.html">BMR</a><a href="macro-calculator.html">Macro</a><a href="ideal-weight-calculator.html">Ideal Weight</a><a href="pregnancy-calculator.html">Pregnancy</a><a href="pregnancy-weight-gain-calculator.html">Pregnancy Weight Gain</a><a href="pregnancy-conception-calculator.html">Pregnancy Conception</a><a href="due-date-calculator.html">Due Date</a><a href="pace-calculator.html">Pace</a><a href="fitness-and-health-calculator.html">More Fitness and Health Calculators</a></div><div id="ocother"><a href="financial-calculator.html">Financial</a> | <a href="fitness-and-health-calculator.html">Fitness and Health</a> | <a href="math-calculator.html">Math</a> | <a href="other-calculator.html">Other</a></div></div>	</div>
+</div>
+<div id="clear"></div>
+<div id="footer"><div id="footerin"><div id="footernav"><a href="about-us.html">about us</a> | <a href="sitemap.html">sitemap</a> | <a href="about-us.html#terms">terms of use</a> | <a href="about-us.html#privacy">privacy policy</a> &nbsp;  &copy; 2008 - 2024 <a href="index.html">calculator.net</a></div></div></div>
+<div class="topNavAbs">
+<a href="financial-calculator.html">Financial</a>
+<a href="fitness-and-health-calculator.html" class="topNavOn">Fitness &amp; Health</a>
+<a href="math-calculator.html">Math</a>
+<a href="other-calculator.html">Other</a>
+</div>
+</body>
+
+<!-- Mirrored from www.calculator.net/army-body-fat-calculator.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2024 06:57:52 GMT -->
+</html>
