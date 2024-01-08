@@ -18,3 +18,14 @@ A basic calculator application implemented in .NET.
 1. Clone the repository:
    ```bash
    git clone https://github.com/rehan5039/calculator.net.git
+   ```
+
+2. Change into the project directory:
+   ```bash
+   cd calculator.net
+   ```
+
+3. Build and run the application:
+   ```bash
+   dotnet run
+   ```
